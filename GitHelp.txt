@@ -1,0 +1,23 @@
+Команды на один раз в проекте
+git init Команда для создания скрытого файла
+git remote add origin https://github.com/Aygerim1/OOP-51-2.git  для привязки проекта к репозиторий
+
+Команды на один раз для устройства ПК/Ноут
+git config --global user.name "Aygerim1"
+git config --global user.email "elcibekovaajgerim@gmail.com"
+
+
+Команды которые часто пишутся в проекте
+git add . Команда копирует и сохраняет в буфер (Невидимый)
+git commit -m "commit message" Команда сохраняет изменения в файле .git
+git push origin master Команда отправлет изменения фв репозиторий и сохраняет его там
+git branch Команда для просмотра списка веток
+git status Команда для просмотра состояния проекта или просмотра изменений
+git clone git remote add origin https://github.com/Aygerim1/OOP-51-2.git Команда для планирования репозиторий
+git pull origin master Команда для получений изменений из репозитория
+
+git init
+git remote add origin https://github.com/Aygerim1/OOP-51-2.git
+git add .
+git commit -m "первый коммит"
+git push origin master
